@@ -1,0 +1,17 @@
+html,
+body,
+:global(#root) {
+  height: 100%;
+  margin: 0;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+html ::-webkit-scrollbar,
+body ::-webkit-scrollbar,
+:global(#root) ::-webkit-scrollbar {
+  /*隐藏滚轮*/
+  display: none;
+}
+:global .monaco-editor .suggest-widget {
+  width: 200px;
+}

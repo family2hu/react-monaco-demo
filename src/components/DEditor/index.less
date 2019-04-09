@@ -1,0 +1,24 @@
+@json-editor-prefix-cls: ~'d-editor';
+
+.@{json-editor-prefix-cls} {
+  height: 100%;
+  width: 100%;
+  // padding: 20px;
+  :global {
+    .monaco-editor,
+    .monaco-editor-background,
+    .monaco-editor .inputarea.ime-input {
+      background-color: #0e1013;
+    }
+    .monaco-editor,
+    .monaco-editor .inputarea.ime-input {
+      color: #d4d4d4;
+    }
+    .monaco-editor .line-numbers {
+      color: #576369;
+    }
+    .monaco-editor .margin {
+      background-color: #0e1013;
+    }
+  }
+}
