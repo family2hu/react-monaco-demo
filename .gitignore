@@ -4,4 +4,4 @@ dist
 yarn-*.log
 .history
 package-lock.json
-.eslintcache
+.eslintcachemd
